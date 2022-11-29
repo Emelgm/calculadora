@@ -62,21 +62,21 @@ while opcion != 'x':
         if param == 'a':
             print("\nFórmula ----> λ = v / f\n")
             velocidad = float(input("Valor de V m/s: "))
-            frecuencia = float(input("Valor de F en kHz: "))
+            frecuencia = float(input("Valor de F en Hz: "))
             longitud = velocidad/frecuencia
-            print(f"\nLa longitud de onda es λ = {round(longitud,2)}")
+            print(f"\nLa longitud de onda es λ = {round(longitud,2)} m")
         elif param == 'b':
             print("\nFórmula ----> f = v / λ\n")
             velocidad = float(input("Valor de V m/s: "))
             longitud = float(input("Valor de λ en m: "))
             frecuencia = velocidad/longitud
-            print(f"\nLa frecuencia de la onda es f = {round(frecuencia,2)}")
+            print(f"\nLa frecuencia de la onda es f = {round(frecuencia,2)} Hz")
         elif param == 'c':
             print("\nFórmula ----> v = λ * f\n")
-            frecuencia = float(input("Valor de F en kHz: "))
+            frecuencia = float(input("Valor de F en Hz: "))
             longitud = float(input("Valor de λ en m: "))
             velocidad = frecuencia*longitud
-            print(f"\nLa frecuencia de la onda es f = {round(velocidad,2)}")
+            print(f"\nLa velocidad de la onda es v = {round(velocidad,2)} m/s")
         # continuar con otra opción o salir del programa
         restart = input("\n¿Desea continuar?\n[S] SÍ - [N] NO\n: ")
         if restart == 's':
