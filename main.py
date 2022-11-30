@@ -23,7 +23,7 @@ while opcion != 'x' or opcion != 'X':
         opcion_2 = input("\nCalcular circuitos\n[A] - En serie\n[B] - En paralelo\n: ")
 
         # circuito en serie
-        if opcion_2 == 'a' or opcion == 'A':
+        if opcion_2 == 'a' or opcion_2 == 'A':
             print("\nCircuitos en serie")
             result = 0
             cantidad = int(input("\nCantidad de R a calcular: "))
@@ -32,7 +32,7 @@ while opcion != 'x' or opcion != 'X':
                 result += r
             print(f"\nLa R resultante es: {round(result,2)} kΩ")
         # cricuito en paralelo
-        elif opcion_2 == 'b' or opcion == 'B':
+        elif opcion_2 == 'b' or opcion_2 == 'B':
             print("\nCircuitos en paralelo")
             result = 0
             cantidad = int(input("\nCantidad de R a calcular: "))
@@ -46,9 +46,9 @@ while opcion != 'x' or opcion != 'X':
             opcion = 'a'
         # continuar con otra opción o salir del programa
         restart = input("\n¿Desea continuar?\n[S] SÍ - [N] NO\n: ")
-        if restart == 's' or opcion == 'S':
+        if restart == 's' or restart == 'S':
             continue
-        elif restart == 'n' or opcion == 'N':
+        elif restart == 'n' or restart == 'N':
             print("\n")
             print('*'*18)
             print(" FIN DEL PROGRAMA")
@@ -83,9 +83,9 @@ while opcion != 'x' or opcion != 'X':
             print("\n¡¡ OPCIÓN EQUIVOCADA !!")
         # continuar con otra opción o salir del programa
         restart = input("\n¿Desea continuar?\n[S] SÍ - [N] NO\n: ")
-        if restart == 's' or opcion == 'S':
+        if restart == 's' or restart == 'S':
             continue
-        elif restart == 'n' or opcion == 'N':
+        elif restart == 'n' or restart == 'N':
             print("\n")
             print('*'*18)
             print(" FIN DEL PROGRAMA")
@@ -119,9 +119,9 @@ while opcion != 'x' or opcion != 'X':
             print("\n¡¡ OPCIÓN EQUIVOCADA !!")
         # continuar con otra opción o salir del programa
         restart = input("\n¿Desea continuar?\n[S] SÍ - [N] NO\n: ")
-        if restart == 's' or opcion == 'S':
+        if restart == 's' or restart == 'S':
             continue
-        elif restart == 'n' or opcion == 'N':
+        elif restart == 'n' or restart == 'N':
             print("\n")
             print('*'*18)
             print(" FIN DEL PROGRAMA")
