@@ -103,13 +103,13 @@ while opcion != 'x' or opcion != 'X':
             frecuencia = float(input("Valor de F en Hz: "))
             longitud = velocidad/frecuencia
             print(f"\nLa longitud de onda es λ = {round(longitud,2)} m")
-        elif param == 'b' or opcion == 'B':
+        elif param == 'b' or param == 'B':
             print("\nFórmula ----> f = v / λ\n")
             velocidad = float(input("Valor de V m/s: "))
             longitud = float(input("Valor de λ en m: "))
             frecuencia = velocidad/longitud
             print(f"\nLa frecuencia de la onda es f = {round(frecuencia,2)} Hz")
-        elif param == 'c' or opcion == 'C':
+        elif param == 'c' or param == 'C':
             print("\nFórmula ----> v = λ * f\n")
             frecuencia = float(input("Valor de F en Hz: "))
             longitud = float(input("Valor de λ en m: "))
