@@ -97,7 +97,7 @@ while opcion != 'x' or opcion != 'X':
     elif opcion == 'c' or opcion == 'C':
         print("\nCalcular parámetros de una onda")
         param = input("[A] - Longitud\n[B] - Frecuencia\n[C] - Velocidad\n:")
-        if param == 'a' or 'A':
+        if param == 'a' or param == 'A':
             print("\nFórmula ----> λ = v / f\n")
             velocidad = float(input("Valor de V m/s: "))
             frecuencia = float(input("Valor de F en Hz: "))
@@ -115,6 +115,8 @@ while opcion != 'x' or opcion != 'X':
             longitud = float(input("Valor de λ en m: "))
             velocidad = frecuencia*longitud
             print(f"\nLa velocidad de la onda es v = {round(velocidad,2)} m/s")
+        else:
+            print("\n¡¡ OPCIÓN EQUIVOCADA !!")
         # continuar con otra opción o salir del programa
         restart = input("\n¿Desea continuar?\n[S] SÍ - [N] NO\n: ")
         if restart == 's' or opcion == 'S':
