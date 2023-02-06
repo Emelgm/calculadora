@@ -1,2 +1,2 @@
 # calculadora
-Calculadora de: circuitos y parámetros de una onda.
+Calculadora de: circuitos, potencia en db y parámetros de una onda.
